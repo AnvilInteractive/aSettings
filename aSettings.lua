@@ -13,6 +13,11 @@ http["get"] = function(url, nocache)
 	return httpService:GetAsync(url, nocache)
 end
 
+-- http.jsonDecode(str input) - simply a shortcut to httpService:JSONDecode
+http["jsonDecode"] = function(input)
+	return httpService:JSONDecode(input)
+end
+ 
 -- Public ( returns with module )
 local module = {}
 
