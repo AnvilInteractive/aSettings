@@ -1,6 +1,6 @@
 -- aSettings
 -- Originially authored by Joe Burke, 21/10/15 03:35BST
--- Last edited: Joe Burke, 31/10/16 18:40BST
+-- Last edited: Joe Burke, 31/10/16 18:42BST
 
 -- Private
 local replicatedStorage = game.ReplicatedStorage
@@ -24,6 +24,7 @@ http["jsonEncode"] = function(input)
 	return httpService:JSONEncode(input)
 end
 
+-- explode(str divider, str input) - divides a string by input
 function explode(div,str) 
 	if (div=='') then return false end 
 	local pos,arr = 0,{} 
@@ -36,5 +37,6 @@ function explode(div,str)
 end 
  
 -- Public ( returns with module )
+
 local module = {}
 
