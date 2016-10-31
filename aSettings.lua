@@ -18,7 +18,7 @@ http["jsonDecode"] = function(input)
 	return httpService:JSONDecode(input)
 end
 
-http["jsonencode"] = function(input)
+http["jsonEncode"] = function(input)
 	return httpService:JSONEncode(input)
 end
 
