@@ -18,6 +18,10 @@ http["jsonDecode"] = function(input)
 	return httpService:JSONDecode(input)
 end
 
+http["jsonencode"] = function(input)
+	return httpService:JSONEncode(input)
+end
+
 function explode(div,str) 
 	if (div=='') then return false end 
 	local pos,arr = 0,{} 
