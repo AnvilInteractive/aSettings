@@ -1,5 +1,6 @@
 -- aSettings
 -- Originially authored by Joe Burke, 21/10/15 03:35BST
+-- Last edited: Joe Burke, 31/10/16 18:40BST
 
 -- Private
 local replicatedStorage = game.ReplicatedStorage
