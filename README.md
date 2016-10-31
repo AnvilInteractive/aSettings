@@ -8,7 +8,7 @@ We're open to contributors to aSettings. If you see a code deficiency or feel li
 
 ### Games
 aSettings currently serves the following games:
-- [Tradelands](http://www.roblox.com/games/198116126/Tradelands)
+- [Tradelands](http://www.roblox.com/games/198116126/Tradelands) ( as soon as the project is finished this will be the first place it'll be used! )
 
 ### License
-aSettings is licensed under the GNU v2 license. You can find it on our repository at [README.md](README.md). Please familiarize yourself with this license before contributing to aSettings.
+aSettings is licensed under the GNU v2 license. You can find it in our repository at [LICENSE](LICENSE). Please familiarize yourself with this license before contributing to aSettings.
