@@ -24,7 +24,7 @@ http["jsonEncode"] = function(input)
 	return httpService:JSONEncode(input)
 end
 
--- explode(str divider, str input) - divides a string by input
+-- explode(str divider, str input) - divides a string by input ( ie explode("hello:my:name:is:joe") becomes {"hello", "my", "name", "is", "joe"}
 function explode(div,str) 
 	if (div=='') then return false end 
 	local pos,arr = 0,{} 
