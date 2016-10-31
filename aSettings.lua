@@ -18,6 +18,7 @@ http["jsonDecode"] = function(input)
 	return httpService:JSONDecode(input)
 end
 
+-- http.jsonEncode(str input) - simply a shortcut to httpService:JSONEncode
 http["jsonEncode"] = function(input)
 	return httpService:JSONEncode(input)
 end
